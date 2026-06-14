@@ -1,10 +1,10 @@
-# 💳 Role-Based SaaS Billing Portal
+# Role-Based SaaS Billing Portal
 
 A full-stack internship-level project demonstrating a production-style SaaS billing system with role-based access control, subscription management, invoice generation, and an analytics dashboard.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 billing-portal/
@@ -73,7 +73,7 @@ billing-portal/
 
 ---
 
-## 🚀 Tech Stack
+## Tech Stack
 
 | Layer     | Technology                              |
 |-----------|-----------------------------------------|
@@ -85,7 +85,7 @@ billing-portal/
 
 ---
 
-## 👥 User Roles
+##  User Roles
 
 | Role    | Capabilities |
 |---------|-------------|
@@ -95,7 +95,7 @@ billing-portal/
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions
 
 ### Prerequisites
 - Node.js v18+
@@ -183,7 +183,7 @@ The app opens at `http://localhost:3000`.
 
 ---
 
-## 🔐 Demo Accounts (after seeding)
+## Demo Accounts (after seeding)
 
 | Role    | Email                        | Password     |
 |---------|------------------------------|--------------|
@@ -193,7 +193,7 @@ The app opens at `http://localhost:3000`.
 
 ---
 
-## 📡 API Documentation
+## API Documentation
 
 ### Base URL: `http://localhost:5000/api`
 
@@ -204,7 +204,7 @@ Authorization: Bearer <token>
 
 ---
 
-### 🔑 Auth
+### Auth
 
 | Method | Endpoint         | Access  | Description               |
 |--------|-----------------|---------|---------------------------|
@@ -225,7 +225,7 @@ Authorization: Bearer <token>
 
 ---
 
-### 📦 Plans
+### Plans
 
 | Method | Endpoint        | Access       | Description              |
 |--------|----------------|--------------|--------------------------|
@@ -248,7 +248,7 @@ Authorization: Bearer <token>
 
 ---
 
-### 📋 Subscriptions
+### Subscriptions
 
 | Method | Endpoint              | Access  | Description               |
 |--------|-----------------------|---------|---------------------------|
@@ -264,7 +264,7 @@ Authorization: Bearer <token>
 
 ---
 
-### 🧾 Invoices
+### Invoices
 
 | Method | Endpoint                | Access         | Description              |
 |--------|------------------------|----------------|--------------------------|
@@ -275,7 +275,7 @@ Authorization: Bearer <token>
 
 ---
 
-### 👥 Users (Admin)
+### Users (Admin)
 
 | Method | Endpoint             | Access | Description       |
 |--------|---------------------|--------|-------------------|
@@ -289,7 +289,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 🌟 Features Summary
+## Features Summary
 
 - ✅ JWT authentication with 7-day expiry
 - ✅ Role-based access control (admin / user / finance)
@@ -306,7 +306,7 @@ Authorization: Bearer <token>
 
 ---
 
-## 🛠️ Common Commands
+## Common Commands
 
 ```bash
 # Server
@@ -323,7 +323,7 @@ npm run build      # production build
 
 ---
 
-## 📌 Notes for Interviewers / Reviewers
+## Notes for Interviewers / Reviewers
 
 - **Security**: Passwords are hashed with bcrypt (salt rounds = 10). Tokens are verified server-side on every protected request.
 - **RBAC**: The `authorize()` middleware factory makes it trivial to add new roles.
