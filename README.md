@@ -291,18 +291,18 @@ Authorization: Bearer <token>
 
 ## Features Summary
 
-- ✅ JWT authentication with 7-day expiry
-- ✅ Role-based access control (admin / user / finance)
-- ✅ Subscription management (subscribe, switch, cancel)
-- ✅ Monthly & yearly billing toggle with savings display
-- ✅ Mock payment gateway (auto-marks invoices as "paid")
-- ✅ PDF invoice generation and download (PDFKit)
-- ✅ Admin analytics: revenue by plan, revenue by month, user breakdown
-- ✅ Finance dashboard: all invoices + revenue charts
-- ✅ Responsive UI with Tailwind CSS
-- ✅ Sidebar navigation filtered by role
-- ✅ Seed script for quick demo setup
-- ✅ Centralized error handling
+- JWT authentication with 7-day expiry
+- Role-based access control (admin / user / finance)
+- Subscription management (subscribe, switch, cancel)
+- Monthly & yearly billing toggle with savings display
+- Mock payment gateway (auto-marks invoices as "paid")
+- PDF invoice generation and download (PDFKit)
+- Admin analytics: revenue by plan, revenue by month, user breakdown
+- Finance dashboard: all invoices + revenue charts
+- Responsive UI with Tailwind CSS
+- Sidebar navigation filtered by role
+- Seed script for quick demo setup
+- Centralized error handling
 
 ---
 
